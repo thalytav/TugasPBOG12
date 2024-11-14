@@ -9,7 +9,6 @@ class BusinessTicket extends Tiket {
         return baseFare * 1.25; // Tambah 25%
     }
     
-    // Menampilkan detail khusus untuk kelas bisnis
     @Override
     public void printTicketDetails() {
         super.printTicketDetails();

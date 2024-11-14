@@ -9,7 +9,6 @@ class FirstClassTicket extends Tiket {
         return baseFare * 1.5; // Tambah 50%
     }
     
-    // Menampilkan detail khusus untuk kelas first class
     @Override
     public void printTicketDetails() {
         super.printTicketDetails();

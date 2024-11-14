@@ -1,4 +1,6 @@
 // Tiket.java
+import java.util.Scanner;
+
 public class Tiket {
     protected String passengerName;
     protected double baseFare;
@@ -8,7 +10,6 @@ public class Tiket {
         this.baseFare = baseFare;
     }
     
-    // Method untuk menghitung tarif, dioverride di subclass
     public double calculateFare() {
         return baseFare;
     }
@@ -17,7 +18,6 @@ public class Tiket {
         return passengerName;
     }
     
-    // Method untuk menampilkan informasi umum
     public void printTicketDetails() {
         System.out.println("Passenger Name: " + passengerName);
         System.out.println("Base Fare: $" + baseFare);

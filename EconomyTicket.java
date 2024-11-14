@@ -9,7 +9,6 @@ class EconomyTicket extends Tiket {
         return baseFare * 0.9; // Diskon 10%
     }
     
-    // Menampilkan detail khusus untuk kelas ekonomi
     @Override
     public void printTicketDetails() {
         super.printTicketDetails();
@@ -17,4 +16,3 @@ class EconomyTicket extends Tiket {
         System.out.println("Additional Services: Standard baggage allowance, No meal service.");
     }
 }
-
